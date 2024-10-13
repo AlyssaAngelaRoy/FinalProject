@@ -1,1 +1,3 @@
-# FinalProject
+- This is a Laboratory Activity on Modules 2 to 5.
+- The topics covered in this activity are CSS Selectors and Basic Syntax, types of CSS, and the different CSS properties. There are also basic HTML, color and wireframes.
+- paste the URL of your repository here.
