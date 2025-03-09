@@ -1,0 +1,253 @@
+body {
+  background-color: #ecd9d9;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+img {
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+  transition-property: transform;
+  transition-duration: 3s;
+  transition-timing-function: ease-in-out;
+}
+h1 {
+  color: #AA336A;
+  margin-left: 200px;
+  text-align:center;
+}
+
+h4 {
+  color: #AA336A;
+  margin-left: 200px;
+  text-align:center;
+}
+
+p {
+  color: #AA336A;
+  margin-left: 200px;
+  margin-bottom: 200px;
+  text-align: center;
+}
+body {
+  font-family: "Lato", sans-serif;
+  background-image: url('img_girl.jpg');
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #544265;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #826d87;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+div {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px #A94064;
+  padding: 50px;
+  margin: 20px;
+}
+
+
+.center {
+  display: block;
+  margin-left: 390px;
+  margin-right: 390px;
+  width:60%;
+}
+
+.image1 {
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+}
+
+img:hover {
+  transform: scale(1.25);
+}
+
+.sprite {
+  background:url('icon.png') no-repeat -54px -129px;
+  width:33px;
+  height:33px;
+}
+
+.sprite:hover {
+  background:url('icon.png') no-repeat -54px -55px;
+  width:33px;
+  height:33px;
+  margin: auto auto;
+}
+
+div {
+	border: 10px solid transparent;
+	padding: 15px;
+	border-image: url(border.png) 30
+	round;
+}
+
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px; /* Offset for sidebar */
+    width: calc(100% - 200px);
+    padding: 20px;
+    text-align: center;
+}
+
+
+.quiz-container {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.question {
+    font-size: 20px;
+   	margin-left: 200px;
+  	margin-bottom: 200px;
+  	text-align: center;
+}
+
+
+.options button {
+   	margin-left: 200px;
+  	margin-bottom: 200px;
+  	text-align: center;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    transition: background-color 0.3s ease;
+}
+
+.options button:hover {
+    background-color: #d5dbdb;
+    margin-left: 200px;
+  	margin-bottom: 200px;
+  	text-align: center;
+}
+
+
+.correct {
+    background-color: lightgreen;
+}
+
+.incorrect {
+    background-color: lightcoral;
+}
+
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex; 
+    justify-content: center; 
+    gap: 10px;"
+    margin-left: 200px;
+  	margin-bottom: 200px;
+  	text-align: center;
+}
+
+#prev {
+    background-color: #3498db;
+    color: white;
+    margin-left: 200px;
+  	margin-bottom: 200px;
+    text-align: center;
+}
+
+#next {
+    background-color: #2ecc71;
+    color: white;
+    margin-left: 200px;
+  	margin-bottom: 200px;
+  	text-align: center;
+}
+
+#submit {
+    background-color: #e74c3c;
+    color: white;
+    margin-left: 200px;
+  	margin-bottom: 200px;
+  	text-align: center;
+}
+
+#prev:hover {
+    background-color: #2980b9;
+    margin-left: 200px;
+  	margin-bottom: 200px;
+  	text-align: center;
+}
+
+#next:hover {
+    background-color: #27ae60;
+    margin-left: 200px;
+  	margin-bottom: 200px;
+  	text-align: center;
+}
+
+#submit:hover {
+    background-color: #c0392b;
+    margin-left: 200px;
+  	margin-bottom: 200px;
+  	text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {   
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .quiz-container {
+        width: 90%;
+    }
+}
