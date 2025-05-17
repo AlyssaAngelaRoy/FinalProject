@@ -1,0 +1,24 @@
+body {
+    background-color: #ecd9d9;
+  }
+  img {
+    display: block;
+    width:1800px;
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+  }
+  
+  img:hover {
+    transform: scale(1.25);
+  }
+  
+  p {
+    text-indent:1em;  
+    text-align:justify;
+    text-align:center;
+  }
+  
+  div {
+    color: #AA336A;
+  }
